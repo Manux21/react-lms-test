@@ -11,6 +11,7 @@ const Register = () => {
 
         <div className={classes.welcome}>
           <img src={Logo} className={classes.welcomeLogo} alt=""/>
+          <h1 style={{color: '#5960F9', fontWeight: 'bold'}}>ATOM</h1>
           <p className={classes.welcomeText}> Welcome to the best <br/> education platform</p>
         </div>
 
