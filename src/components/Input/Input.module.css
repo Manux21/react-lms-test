@@ -1,0 +1,18 @@
+
+input {
+    display: flex;
+    padding: 15px 20px;
+    width: 45vh;
+    border-radius: 10px;
+    border: 1px solid #D7D7D7;
+    outline: none;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: 16px;
+}
+
+
+
+input:focus {
+    border: 1px solid #4200FF;
+    transition: all 0.6s ease;
+}

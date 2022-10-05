@@ -1,0 +1,21 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    width: 50vh;
+    border: none;
+    font-family: 'SF Pro Display', 'sans-serif';
+    font-size: 16px;
+    background-color: #4200FF;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: white;
+    color: #4200FF;
+    transition: all 0.2s;
+    border: solid 1px #4200FF;
+}
