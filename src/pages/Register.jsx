@@ -15,12 +15,10 @@ const Register = () => {
           <p className={classes.welcomeText}> Welcome to the best <br/> education platform</p>
         </div>
 
-
         <form>
           <Input type='email' placeholder={'email'}/>
           <Input type='text' placeholder={'username'}/>
           <Input type='password' placeholder={'password'}/>
-
           <Button text='Register'/>
 
         </form>
