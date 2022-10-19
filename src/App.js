@@ -1,12 +1,13 @@
 import React from 'react'
-import Register from "./pages/Register";
+import Container from "./components/Container/Container";
 
 
 
 function App() {
   return (
     <>
-     <Register/>
+      <Container/>
+     {/*<Register/>*/}
     </>
   );
 }
