@@ -1,12 +1,10 @@
 import React from "react";
-import classes from './Container.module.css'
+import Navbar from "../Navbar/Navbar";
 
 const Container = ({children, keywords}) => {
   return (
     <>
-      <div className='navbar'>
-        Hello
-      </div>
+      <Navbar/>
       <div>
         {children}
       </div>

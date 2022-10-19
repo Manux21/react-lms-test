@@ -1,0 +1,11 @@
+Button {
+    width: 90px;
+    height: 90px;
+    background-color: #5860F8;
+    border: none;
+}
+
+Button:hover {
+    box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease-out;
+}
