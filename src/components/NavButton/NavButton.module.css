@@ -5,7 +5,14 @@ Button {
     border: none;
 }
 
-Button:hover {
+Button:active {
     box-shadow: inset 0px 0px 4px 3px rgba(0, 0, 0, 0.08);
-    transition: 0.2s ease-out;
+    transition: linear;
+}
+
+
+Button:hover {
+
+    background-color: #5159E9;
+    transition: 0.1s ease-in;
 }

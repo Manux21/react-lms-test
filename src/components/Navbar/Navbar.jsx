@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className={classes.navbar}>
       <div style={{marginTop: '125px'}}>
-        <NavButton icon={SpeechIcon}/>
         <NavButton icon={LayoutGrid}/>
         <NavButton icon={Mortarboard}/>
+        <NavButton icon={SpeechIcon}/>
       </div>
     </div>
   );
