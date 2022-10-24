@@ -1,4 +1,50 @@
+
+
 .userBoard {
     display: flex;
     width: 440px;
+    box-sizing: border-box;
+}
+
+
+.userHeader {
+    display: flex;
+    padding: 0 26px 0 26px;
+    width: 100%;
+    height: 78px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.notification {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    cursor: pointer;
+
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.arrowDown {
+    display: flex;
+    margin-left: 8px;
 }
